@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { ThemeProvider } from "@/components/theme-provider";
-
+import { TableDemo } from "@/components/table";
 function App() {
   useEffect(() => {
     const script = document.createElement("script");
@@ -19,6 +19,7 @@ function App() {
   return (
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
       <Button>Click me!</Button>
+      <TableDemo />
     </ThemeProvider>
   );
 }

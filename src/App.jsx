@@ -19,6 +19,7 @@ function App() {
   return (
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
       <Button>Click me!</Button>
+      <Button>Press it</Button>
       <TableDemo />
     </ThemeProvider>
   );
